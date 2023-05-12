@@ -1,0 +1,30 @@
+// heading
+%heading-base {
+  font-weight: 700;
+  color: rgb(var(--color));
+  margin: 0 0 1rem;
+  line-height: 1.25
+}
+
+@each $tag,
+$size in $heading-sizes {
+  #{$tag} {
+    @extend %heading-base;
+    font-size: #{$size}
+  }
+}
+
+b,
+strong {
+  font-weight: 600;
+}
+
+p {
+  color: rgba(var(--color), .75);
+  font-size: 1.15rem;
+  line-height: 1.35;
+
+  &+p {
+    margin-top: 1rem;
+  }
+}
