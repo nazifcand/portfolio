@@ -3,6 +3,8 @@ import Head from 'next/head';
 import { TITLE } from '../../constants';
 import { useEffect } from 'react';
 
+declare const window: any;
+
 const Post = ({ post }) => {
   useEffect(() => {
     window.hljs?.configure({ ignoreUnescapedHTML: true });
