@@ -47,10 +47,6 @@ export const PAGES = [
     to: '/',
   },
   {
-    label: 'PROJELER',
-    to: '/projects',
-  },
-  {
     label: 'KARİYER',
     to: '/career',
   },
@@ -67,10 +63,31 @@ export const PAGES = [
 export const CAREERS = [
   {
     title: 'Frontend Developer',
+    company: 'Pure Technology',
+    type: 'Tam Zamanlı',
+    start: 'Ocak 2024',
+    end: 'Devam Ediyor',
+    location: 'İstanbul, Türkiye',
+    summary:
+      'Şuan aktif olarak trading bot sistemi için arayüz geliştiriyorum.',
+    techs: [
+      'next',
+      'react',
+      'html5',
+      'tailwindcss',
+      'git',
+      'github',
+      'postman',
+      'vscode',
+      'terminal',
+    ],
+  },
+  {
+    title: 'Frontend Developer',
     company: 'TraderBull',
     type: 'Tam Zamanlı',
     start: 'Haziran 2022',
-    end: 'Devam Ediyor',
+    end: 'Aralık 2023',
     location: 'Bursa, Türkiye',
     summary:
       'Şuan aktif olarak trading bot sistemi için arayüz geliştiriyorum.',
@@ -233,10 +250,15 @@ export const TECH_IMAGES = {
     image:
       'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg',
   },
+  tailwindcss: {
+    title: 'tailwindcss',
+    image:
+      'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg',
+  },
   nest: {
     title: 'Nest.js',
     image:
-      'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-plain.svg',
+      'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nestjs/nestjs-original.svg',
   },
   postgresql: {
     title: 'PostgreSQL',

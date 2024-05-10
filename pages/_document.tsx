@@ -15,6 +15,12 @@ export default function Document() {
         <link rel="icon" type="image/png" href="/favicon.png" />
 
         <Script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5106384346328058"
+          crossOrigin="anonymous"
+          strategy="lazyOnload"
+        />
+        <Script
           src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js"
           strategy="afterInteractive"
         />
