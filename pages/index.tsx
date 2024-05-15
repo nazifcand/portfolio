@@ -76,7 +76,7 @@ const Index = () => {
                 alt="Express.js"
               />
               <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-plain.svg"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nestjs/nestjs-original.svg"
                 alt="NestJS"
               />
               <img
