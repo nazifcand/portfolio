@@ -7,7 +7,7 @@ const Index = () => {
   return (
     <Layout>
       <Head>
-        <title>{TITLE}</title>
+        <title>{`Hakkımda - ${TITLE}`}</title>
       </Head>
 
       <div id="about-me">

@@ -12,7 +12,7 @@ const Videos = ({ videos }) => {
   return (
     <Layout>
       <Head>
-        <title>{TITLE}</title>
+        <title>{`Youtube Vidolarım - ${TITLE}`}</title>
       </Head>
 
       <div id="videos">

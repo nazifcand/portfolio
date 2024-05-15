@@ -7,7 +7,7 @@ const Career = () => {
   return (
     <Layout>
       <Head>
-        <title>{TITLE}</title>
+        <title>{`Kariyer - ${TITLE}`}</title>
       </Head>
 
       <div id="timeline">
