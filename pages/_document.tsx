@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-css-tags */
 import { Html, Head, Main, NextScript } from 'next/document';
 import Script from 'next/script';
+import { GoogleAnalytics } from '@next/third-parties/google';
 
 export default function Document() {
   return (
@@ -31,7 +32,7 @@ export default function Document() {
         `}
         </Script>
 
-        <Script
+        {/* <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-8VRLBB6ZMG"
           strategy="afterInteractive"
           async
@@ -44,7 +45,7 @@ export default function Document() {
 
           gtag('config', 'G-8VRLBB6ZMG');
         `}
-        </Script>
+        </Script> */}
 
         {/* <Script
           strategy="afterInteractive"
@@ -56,6 +57,7 @@ export default function Document() {
       <body>
         <Main />
         <NextScript />
+        <GoogleAnalytics gaId="G-8VRLBB6ZMG" />
       </body>
     </Html>
   );
