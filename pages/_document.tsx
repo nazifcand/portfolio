@@ -11,18 +11,12 @@ export default function Document() {
         <link rel="stylesheet" href="/github-markdown.css" />
         <link
           rel="stylesheet"
-          href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/styles/github.min.css"
+          href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/styles/github.min.css"
         />
         <link rel="icon" type="image/png" href="/favicon.png" />
 
         <Script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5106384346328058"
-          crossOrigin="anonymous"
-          strategy="lazyOnload"
-        />
-        <Script
-          src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js"
+          src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js"
           strategy="afterInteractive"
         />
         <Script id="code-highlight" strategy="lazyOnload">
@@ -31,27 +25,6 @@ export default function Document() {
             hljs.highlightAll();
         `}
         </Script>
-
-        {/* <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-8VRLBB6ZMG"
-          strategy="afterInteractive"
-          async
-        />
-        <Script id="google-analytics" strategy="afterInteractive">
-          {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){window.dataLayer.push(arguments);}
-          gtag('js', new Date());
-
-          gtag('config', 'G-8VRLBB6ZMG');
-        `}
-        </Script> */}
-
-        {/* <Script
-          strategy="afterInteractive"
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5106384346328058"
-          crossOrigin="anonymous"
-        ></Script> */}
       </Head>
 
       <body>
