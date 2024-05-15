@@ -19,7 +19,7 @@ const Posts = ({ posts }) => {
   return (
     <Layout>
       <Head>
-        <title>{TITLE}</title>
+        <title>{`İçerikler - ${TITLE}`}</title>
       </Head>
 
       <div id="posts">
