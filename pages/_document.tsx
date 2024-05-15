@@ -31,9 +31,10 @@ export default function Document() {
         `}
         </Script>
 
-        {/* <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-Y389N6FTVC"
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-8VRLBB6ZMG"
           strategy="afterInteractive"
+          async
         />
         <Script id="google-analytics" strategy="afterInteractive">
           {`
@@ -41,9 +42,9 @@ export default function Document() {
           function gtag(){window.dataLayer.push(arguments);}
           gtag('js', new Date());
 
-          gtag('config', 'G-Y389N6FTVC');
+          gtag('config', 'G-8VRLBB6ZMG');
         `}
-        </Script> */}
+        </Script>
 
         {/* <Script
           strategy="afterInteractive"
